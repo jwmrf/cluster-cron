@@ -9,12 +9,12 @@ npm install one-cluster
 
 ## Use Function
 
+```javascript
 const one-cluster = require('one-cluster')
 one-cluster() 'Return True if application not have cluster or if is the principal proccess in a cluster application'
 
 
 ### Use With Cronjob Example 
-
 // npm install cron
 
 const one-cluster = require('one-cluster')
