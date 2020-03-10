@@ -1,6 +1,6 @@
 {
   "name": "one-cluster",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Package that return true to one cluster proccess, working with Cronjobs.",
   "main": "index.js",
   "scripts": {
