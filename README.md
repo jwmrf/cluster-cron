@@ -10,17 +10,17 @@ npm install one-cluster
 ## Use Function
 
 ```javascript
-const one-cluster = require('one-cluster')
-one-cluster() 'Return True if application not have cluster or if is the principal proccess in a cluster application'
+const onecluster = require('one-cluster')
+onecluster() 'Return True if application not have cluster or if is the principal proccess in a cluster application'
 
 
 ### Use With Cronjob Example 
 // npm install cron
 
-const one-cluster = require('one-cluster')
+const onecluster = require('one-cluster')
 var CronJob = require('cron').CronJob;
 var job = new CronJob('* * * * * *', function() {
-    if(one-cluster()){
+    if(onecluster()){
         console.log('You will see this message in one cluster proccess');
     }
 }, null, true, 'America/Los_Angeles');
